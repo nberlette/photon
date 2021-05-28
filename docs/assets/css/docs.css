@@ -163,7 +163,7 @@ a {
   position: relative;
   padding-bottom: 80px;
   color: #fff;
-  background-image: url("/assets/img/photo-couch.png");
+  background-image: url("/photon/assets/img/photo-couch.png");
   background-size: cover;
 }
 .masthead:after {
@@ -479,8 +479,8 @@ a {
 
 @font-face {
   font-family: "photon-entypo";
-  src: url("/dist/fonts/photon-entypo.eot");
-  src: url("/dist/fonts/photon-entypo.eot?#iefix") format("eot"), url("/dist/fonts/photon-entypo.woff") format("woff"), url("/dist/fonts/photon-entypo.ttf") format("truetype");
+  src: url("/photon/dist/fonts/photon-entypo.eot");
+  src: url("/photon/dist/fonts/photon-entypo.eot?#iefix") format("eot"), url("/photon/dist/fonts/photon-entypo.woff") format("woff"), url("/photon/dist/fonts/photon-entypo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
