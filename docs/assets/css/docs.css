@@ -112,9 +112,14 @@ a {
 
 .highlight {
   margin: 0;
-  font-family: "Operator Mono", monospace;
+  font-family: "Operator Mono", monospace !important;
   font-weight: 400;
   font-size: 0.9em;
+}
+
+.highlight pre {
+  font-family: "Operator Mono", monospace !important;
+  font-weight: 400;
 }
 
 .btn {
