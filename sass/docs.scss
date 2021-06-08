@@ -4,7 +4,55 @@
 
 //Imports
 @import "mixins.scss";
-@import "fonts.scss";
+
+// Operator Mono
+
+$families: (
+    "Operator Mono": (
+        200: (
+            normal: "/dist/fonts/operator-mono/xlight/regular.woff",
+            italic: "/dist/fonts/operator-mono/xlight/italic.woff",
+        ),
+        300: (
+            normal: "/dist/fonts/operator-mono/light/regular.woff",
+            italic: "/dist/fonts/operator-mono/light/italic.woff",
+        ),
+        400: (
+            normal: "/dist/fonts/operator-mono/book/regular.woff",
+            italic: "/dist/fonts/operator-mono/book/italic.woff",
+        ),
+        500: (
+            normal: "/dist/fonts/operator-mono/medium/regular.woff",
+            italic: "/dist/fonts/operator-mono/medium/italic.woff",
+        ),
+        700: (
+            normal: "/dist/fonts/operator-mono/bold/regular.woff",
+            italic: "/dist/fonts/operator-mono/bold/italic.woff",
+        ),
+    )
+);
+@mixin face($fontFamily, $fontWeight, $fontStyle, $fontSrc, $format: "woff") {
+    @at-root {
+        @font-face {
+            font-family: quote(unquote($fontFamily));
+            font-weight: #{$fontWeight};
+            font-style: #{$fontStyle};
+            src: url(#{$fontSrc}) format($format);
+        }
+    }
+}
+@mixin family($fontFamily) {
+    @if not $fontFamily and $fontFamilyDefault {
+        $fontFamily: $fontFamilyDefault;
+    }
+    @each $fontWeight, $fontStyles in map-get($families, $fontFamily) {
+        @each $fontStyle, $fontSrc in $fontStyles {
+            @include face($fontFamily, $fontWeight, $fontStyle, $fontSrc);
+        }
+    }
+}
+
+@include family("Operator Mono");
 
 // Docs variables
 $desktop-spacing: 3rem;
