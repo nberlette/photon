@@ -1,4 +1,64 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 200;
+  font-style: normal;
+  src: url(../fonts/operator-mono/xlight/regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/operator-mono/xlight/italic.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/operator-mono/light/regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/operator-mono/light/italic.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/oeprator-mono/book/regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/operator-mono/book/italic.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/operator-mono/medium/regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/operator-mono/medium/italic.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/operator-mono/bold/regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Operator Mono";
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/operator-mono/bold/italic.woff) format("woff");
+}
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
