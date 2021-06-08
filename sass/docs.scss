@@ -65,6 +65,8 @@ a {
 // Code
 .highlight {
   margin: 0;
+  font-family: 'Operator Mono', monospace;
+  font-weight: 400;
   font-size: .9em;
 }
 
@@ -157,7 +159,7 @@ a {
   .col-group {
     display: -webkit-flex; // Make the grid work in older Safari browsers
     display: -ms-flex; // Make the grid work in older IE browsers
-    display: flex
+    display: flex;
   }
 
   .col {
@@ -548,10 +550,10 @@ a {
 }
 
 .forms-component {
-  height: 430px;
+  height: 500px;
 }
 
 .icons-component {
-  height: 400px;
+  height: 420px;
   overflow: hidden;
 }

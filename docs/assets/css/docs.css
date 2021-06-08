@@ -52,6 +52,8 @@ a {
 
 .highlight {
   margin: 0;
+  font-family: "Operator Mono", monospace;
+  font-weight: 400;
   font-size: 0.9em;
 }
 
@@ -523,10 +525,10 @@ a {
 }
 
 .forms-component {
-  height: 430px;
+  height: 500px;
 }
 
 .icons-component {
-  height: 400px;
+  height: 420px;
   overflow: hidden;
 }
