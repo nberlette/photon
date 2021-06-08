@@ -1,13 +1,13 @@
-# [Photon](http://photonkit.com/)
+# [Photon](https://berlette.com/photon)
 
-[![Build Status](https://img.shields.io/travis/connors/photon/master.svg)](https://travis-ci.org/connors/photon)
+[![Build Status](https://img.shields.io/travis/nberlette/photon/master.svg)](https://travis-ci.org/nberlette/photon)
 
 UI toolkit for building desktop apps with Electron.
 
 ## Getting started
 
-* Clone the repo with `git clone https://github.com/connors/photon.git`
-* [Read the docs](http://photonkit.com) to learn about the components and how to get your new application started
+* Clone the repo with `git clone https://github.com/nberlette/photon.git`
+* [Read the docs](https://berlette.com/photon) to learn about the components and how to get your new application started
 
 Take note that our master branch is our active, unstable development branch and that if you're looking to download a stable copy of the repo, check the [tagged downloads](https://github.com/connors/photon/tags).
 
@@ -36,7 +36,7 @@ We provide compiled CSS (`photon.*`). We also include the Entypo fonts and a tem
 
 ## Documentation
 
-Photon's documentation is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://photonkit.com>. The docs may also be run locally.
+Photon's documentation is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <https://berlette.com/photon. The docs may also be run locally.
 
 ### Running documentation locally
 
@@ -50,7 +50,7 @@ Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com
 
 ## Contributing
 
-Please file a GitHub issue to [report a bug](https://github.com/connors/photon/issues). When reporting a bug, be sure to follow the [contributor guidelines](https://github.com/connors/photon/blob/master/CONTRIBUTING.md).
+Please file a GitHub issue to [report a bug](https://github.com/nberlette/photon/issues). When reporting a bug, be sure to follow the [contributor guidelines](https://github.com/connors/photon/blob/master/CONTRIBUTING.md).
 
 
 ## Development
