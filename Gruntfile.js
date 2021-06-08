@@ -39,9 +39,8 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        sourcemap: 'none',
-        style: 'expanded',
-        unixNewlines: true
+        noSourceMap: '',
+        style: 'expanded'
       },
       core: {
         src: 'sass/photon.scss',

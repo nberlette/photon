@@ -5,6 +5,8 @@
 * {
   cursor: default;
   -webkit-user-select: none;
+  caret-color: transparent;
+  outline: none !important;
 }
 
 // Forms
@@ -20,4 +22,5 @@ select,
 textarea {
   -webkit-user-select: text;
   -webkit-app-region:  no-drag;
+  caret-color: currentColor;
 }

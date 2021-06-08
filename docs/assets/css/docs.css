@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  margin-bottom: .18em;
+  margin-bottom: 0.18em;
   font-size: 1.6em;
 }
 
 h3 {
-  margin-bottom: .15em;
+  margin-bottom: 0.15em;
   font-size: 1.3em;
 }
 
@@ -30,8 +30,8 @@ h5 {
 }
 
 p {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-size: 1em;
   color: #555;
 }
@@ -52,7 +52,7 @@ a {
 
 .highlight {
   margin: 0;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .btn {
@@ -69,7 +69,7 @@ a {
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 4px;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 .btn:hover {
   border-color: #999;
@@ -96,7 +96,7 @@ a {
 
 @media (min-width: 32em) {
   .btn-components,
-  .btn-download {
+.btn-download {
     margin-right: 0;
     margin-left: 0;
     display: inline-block;
@@ -163,7 +163,7 @@ a {
   position: relative;
   padding-bottom: 80px;
   color: #fff;
-  background-image: url("/photon/assets/img/photo-couch.png");
+  background-image: url("/assets/img/photo-couch.png");
   background-size: cover;
 }
 .masthead:after {
@@ -174,7 +174,7 @@ a {
   left: 0;
   content: "";
   background-color: #000;
-  opacity: .25;
+  opacity: 0.25;
   z-index: 1;
 }
 
@@ -208,16 +208,16 @@ a {
   position: absolute;
   left: 50%;
   bottom: 1em;
-  font-size: .8em;
+  font-size: 0.8em;
   color: #fff;
   white-space: nowrap;
   transform: translatex(-50%);
-  transition: opacity .15s linear;
-  opacity: .5;
+  transition: opacity 0.15s linear;
+  opacity: 0.5;
   z-index: 10;
 }
 .photo-credit:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .sub-masthead {
@@ -251,7 +251,7 @@ a {
   color: #fff;
   font-size: 1.3em;
   font-weight: 300;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .nav {
@@ -280,12 +280,12 @@ a {
 }
 
 .nav-item {
-  margin-right: .7rem;
-  font-size: .8em;
+  margin-right: 0.7rem;
+  font-size: 0.8em;
   color: #fff;
   line-height: 1;
-  opacity: .7;
-  transition: opacity .15s linear;
+  opacity: 0.7;
+  transition: opacity 0.15s linear;
 }
 .nav-item:hover {
   opacity: 1;
@@ -306,7 +306,7 @@ a {
   }
 
   .nav-group {
-    margin-top: .5em;
+    margin-top: 0.5em;
     float: right;
   }
 
@@ -446,9 +446,9 @@ a {
 }
 
 .footer-content {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 500;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .footer-links {
@@ -479,8 +479,8 @@ a {
 
 @font-face {
   font-family: "photon-entypo";
-  src: url("/photon/dist/fonts/photon-entypo.eot");
-  src: url("/photon/dist/fonts/photon-entypo.eot?#iefix") format("eot"), url("/photon/dist/fonts/photon-entypo.woff") format("woff"), url("/photon/dist/fonts/photon-entypo.ttf") format("truetype");
+  src: url("/dist/fonts/photon-entypo.eot");
+  src: url("/dist/fonts/photon-entypo.eot?#iefix") format("eot"), url("/dist/fonts/photon-entypo.woff") format("woff"), url("/dist/fonts/photon-entypo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -500,17 +500,17 @@ a {
 }
 
 .icon-bucket:before {
-  content: '\e8d5';
+  content: "";
 }
 
 /* '' */
 .icon-code:before {
-  content: '\e834';
+  content: "";
 }
 
 /* '' */
 .icon-window:before {
-  content: '\e86d';
+  content: "";
 }
 
 /* '' */
