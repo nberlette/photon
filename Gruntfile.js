@@ -5,7 +5,6 @@
  */
 
 module.exports = function(grunt) {
-  'use strict';
 
   // Force use of Unix newlines
   grunt.util.linefeed = '\n';
@@ -39,7 +38,7 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        noSourceMap: '',
+	sourcemap: 'never',
         style: 'expanded'
       },
       core: {
