@@ -1,6 +1,6 @@
-# [Photon](https://berlette.com/photon)
+# [Photon](https://berlette.com/photon) 
 
-[![Build Status](https://img.shields.io/travis/nberlette/photon/master.svg)](https://travis-ci.org/nberlette/photon)
+[![Build Status](https://img.shields.io/travis/nberlette/photon/master.svg)](https://travis-ci.org/nberlette/photon) [![Netlify Status](https://api.netlify.com/api/v1/badges/608ef2a5-aa93-4c0b-bb21-810bc1c7a8d8/deploy-status)](https://app.netlify.com/sites/nb-photon/deploys)
 
 UI toolkit for building desktop apps with Electron.
 
