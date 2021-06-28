@@ -6,11 +6,11 @@ git:
   depth: 10
 
 node_js:
-  - "0.12"
+  - "14.x"
 
 env:
   matrix:
-    - RUBY_VERSION=2.0
+    - RUBY_VERSION=2.6.3
 
 before_install:
   - rvm install $RUBY_VERSION
@@ -19,7 +19,7 @@ before_install:
 
 install:
   - travis_retry npm install
-  - travis_retry gem install --no-document "jekyll:~>3.0.0" "rouge:~>1.10" "sass:~>3.4"
+  - travis_retry gem install --no-document "jekyll:~>4.2.0" "rouge:~>3.26" "sass:~>3.4"
 
 matrix:
   fast_finish: true
