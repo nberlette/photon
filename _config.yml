@@ -12,4 +12,4 @@ permalink:    pretty
 # Server
 source:       docs
 port:         4000
-url:          http://photon.berlette.com
+url:          https://photon.berlette.com
