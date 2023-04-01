@@ -1,0 +1,33 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node-version:
+          - 16.x
+        ruby-version:
+          - 3.x
+    steps:
+      - name: 'Setup Node ${{ matrix.node-version }}'
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v2
+      - run: |
+          rvm install ${{ matrix.ruby-version }} 
+          rvm use ${{ matrix.ruby-version }} --fuzzy
+          export GEMDIR=$(rvm gemdir)
+          
+          npm install
+          gem install --no-document "jekyll:~>3.0.0" "rouge:~>1.10" "sass:~>3.4"
